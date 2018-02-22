@@ -20,9 +20,10 @@
 	
 	<a-assets>
                 <a-asset-item id="Sofa-obj" src="textures/Sofa.obj"></a-asset-item>
-				
-				
-				
+		
+		
+		 <a-asset-item id="tree" src="/actual_tv/scene.gltf" "></a-asset-item>
+		
 				
          
          
@@ -42,7 +43,7 @@
        </a-assets>
 	   
 	   <!---- 3D models --->
-	<a-gltf-model src="/actual_tv/scene.gltf" position="32.95 5 -62.828" scale=".14 .15 .15" rotation = "0 210 0"></a-gltf-model>
+	<a-entity gltf-model="#tree" position="32.95 5 -62.828" scale=".14 .15 .15" rotation = "0 210 0"></a-entity>
 	
 	   
 	<a-gltf-model src="/TV/scene.gltf" position="39.13 0 -67.331" scale=".25 .25 .25" rotation = "0 30 0"></a-gltf-model>
